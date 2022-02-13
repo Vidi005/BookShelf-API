@@ -1,0 +1,32 @@
+{
+  "name": "bookshelf-web-server",
+  "version": "1.0.0",
+  "description": "Submission Dicoding Back-End Pemula",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "nodemon ./src/server.js",
+    "start-prod": "NODE_ENV=production node ./src/server.js",
+    "lint": "eslint ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "bookshelf-back-end-app"
+  },
+  "keywords": [
+    "bookshelf-app"
+  ],
+  "author": "Vidi Fitriansyah Hidarlan",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.2.1",
+    "nanoid": "^3.2.0"
+  }
+}
